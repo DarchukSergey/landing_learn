@@ -1,0 +1,23 @@
+@import './base/typography';
+
+
+body{
+	background-color: blue;
+}
+a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.xxx {
+  /* -ms-grid-column: span 6; is invalid css in IE */
+      grid-column-start: span 6;
+}
+
+.box {
+	border-radius: 20px;
+	box-shadow: 2px 2px #000;
+	a {
+		color: #cdcdcd;
+	}
+}
